@@ -19,7 +19,7 @@ const SecurityTips: React.FC<SecurityTipsProps> = ({ className }) => {
   return (
     <div className={cn("space-y-3", className)}>
       <div className="flex items-center gap-2 mb-1">
-        <Shield className="h-5 w-5 text-accent" />
+        <Shield color="red" className="h-5 w-5 text-accent" />
         <h3 className="text-sm font-bold text-foreground">Security Tips</h3>
       </div>
       <div className="space-y-3">
