@@ -20,14 +20,14 @@ const SecurityTips: React.FC<SecurityTipsProps> = ({ className }) => {
     <div className={cn("space-y-3", className)}>
       <div className="flex items-center gap-2 mb-1">
         <Shield className="h-5 w-5 text-accent" />
-        <h3 className="text-sm font-bold">Security Tips</h3>
+        <h3 className="text-sm font-bold text-foreground">Security Tips</h3>
       </div>
       <div className="space-y-3">
         {tips.map((tip, index) => (
           <div key={index} className="security-tip">
             <div className="flex gap-2">
               <Info className="h-4 w-4 text-accent shrink-0 mt-0.5" />
-              <p className="text-xs">{tip}</p>
+              <p className="text-xs text-foreground/90">{tip}</p>
             </div>
           </div>
         ))}

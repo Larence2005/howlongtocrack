@@ -40,7 +40,7 @@ const PasswordStrengthChecker: React.FC = () => {
             />
             <CardTitle className="text-xl">Password Strength Checker</CardTitle>
           </div>
-          <CardDescription className="text-muted-foreground">
+          <CardDescription className="text-sm text-foreground/80 font-medium">
             Enter a password to check its strength
           </CardDescription>
         </CardHeader>
@@ -76,7 +76,7 @@ const PasswordStrengthChecker: React.FC = () => {
 
           <SecurityTips />
 
-          <div className="text-center text-xs text-muted-foreground">
+          <div className="text-center text-xs text-foreground/70">
             <p>
               Password information is never stored or transmitted.
               <br />
