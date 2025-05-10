@@ -4,20 +4,26 @@ import PasswordStrengthChecker from '@/components/PasswordStrengthChecker';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-4">
-      <div className="w-full max-w-lg">
-        <h1 className="text-3xl font-bold text-center mb-2">How Strong Is Your Password?</h1>
-        <p className="text-center text-gray-600 mb-8">
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 py-10">
+      <div className="w-full max-w-xl mb-6">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-2 bg-gradient-to-r from-purple-400 via-accent to-blue-400 text-transparent bg-clip-text">
+          How Strong Is Your Password?
+        </h1>
+        <p className="text-center text-muted-foreground mb-8 max-w-md mx-auto px-4">
           Type your password below to see how secure it is
         </p>
         <PasswordStrengthChecker />
       </div>
-      <footer className="mt-10 text-center text-sm text-gray-500">
-        <p>
-          Password information is never stored or transmitted.
-          <br />
-          All calculations happen directly in your browser.
-        </p>
+      
+      <footer className="w-full max-w-xl mt-6 text-center">
+        <a 
+          href="https://johnlarencelusaya.lovable.app" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block text-highlight-green hover:underline text-sm font-medium transition-all hover:scale-105 mb-6"
+        >
+          Created by John Larence D. Lusaya
+        </a>
       </footer>
     </div>
   );

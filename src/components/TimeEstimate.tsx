@@ -10,8 +10,8 @@ interface TimeEstimateProps {
 
 const TimeEstimate: React.FC<TimeEstimateProps> = ({ time, className }) => {
   return (
-    <div className={cn("flex items-center gap-2", className)}>
-      <Clock className="w-4 h-4 text-muted-foreground" />
+    <div className={cn("flex items-center gap-3 p-3 rounded-md bg-secondary/30 border border-accent/10", className)}>
+      <Clock className="w-5 h-5 text-accent" />
       <div className="flex flex-col">
         <span className="text-xs text-muted-foreground">Time to crack:</span>
         <span className="font-medium">{time}</span>

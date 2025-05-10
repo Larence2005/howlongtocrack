@@ -40,8 +40,9 @@ const StrengthMeter: React.FC<StrengthMeterProps> = ({ strength, className }) =>
           <div 
             key={index}
             className={cn(
-              "h-full flex-1 rounded-sm transition-all duration-300",
-              segment.active ? segment.color : "bg-gray-200",
+              "h-full flex-1 rounded-full transition-all duration-300",
+              segment.active ? segment.color : "bg-secondary",
+              segment.active && "animate-glow-pulse"
             )}
           />
         ))}

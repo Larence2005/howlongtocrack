@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -69,6 +68,9 @@ export default {
 					medium: '#FFDC00',
 					strong: '#2ECC40',
 					veryStrong: '#01FF70'
+				},
+				highlight: {
+					green: '#4ade80'
 				}
 			},
 			borderRadius: {
@@ -96,12 +98,20 @@ export default {
 				'pulse-glow': {
 					'0%, 100%': { opacity: '1' },
 					'50%': { opacity: '0.7' }
+				},
+				'glow': {
+					'0%, 100%': { boxShadow: '0 0 15px rgba(147, 51, 234, 0.4)' },
+					'50%': { boxShadow: '0 0 25px rgba(147, 51, 234, 0.7)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+				'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+				'glow-pulse': 'glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+			},
+			backgroundImage: {
+				'ai-gradient': 'radial-gradient(circle at top right, #1e1e2f, #0d1117)'
 			}
 		}
 	},
