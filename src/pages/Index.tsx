@@ -9,11 +9,9 @@ const Index = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-2 bg-gradient-to-r from-purple-400 via-accent to-blue-400 text-transparent bg-clip-text">
           How Long To Crack
         </h1>
-        <br>
         <p className="text-center text-muted-foreground mb-8 max-w-md mx-auto px-4">
           Type your password below to see how secure it is
         </p>
-        <br>
         <PasswordStrengthChecker />
       </div>
       
