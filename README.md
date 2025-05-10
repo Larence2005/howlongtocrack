@@ -1,6 +1,6 @@
 # How Long To Crack
 
-How Long To Crack is a simple and intuitive web application that analyzes the strength of your passwords and estimates how long it would take to be cracked using modern computing techniques. Whether you're checking an existing password or creating a new one, this tool helps you make smarter security choices.
+How Long To Crack is a simple and intuitive web application that analyzes the strength of your passwords and estimates how long they would take to be brute-forced and cracked using modern computing techniques. Whether you're checking an existing password or creating a new one, this tool helps you make smarter security choices.
 
 ## Features
 Password Strength Analysis – Get instant feedback on how secure your password is.
