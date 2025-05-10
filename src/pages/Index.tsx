@@ -13,7 +13,7 @@ const Index = () => {
         <p className="text-center text-muted-foreground mb-8 max-w-md mx-auto px-4">
           Type your password below to see how secure it is
         </p>
-        <>br>
+        <br>
         <PasswordStrengthChecker />
       </div>
       
