@@ -30,7 +30,7 @@ const RequirementsList: React.FC<RequirementsListProps> = ({ requirements, class
         {requirementItems.map((item, index) => (
           <li key={index} className="flex items-center gap-3 transition-all duration-200 hover:translate-x-1">
             {item.met ? (
-              <CheckCircle className="h-4 w-4 text-green-500" />
+              <CheckCircle color="#68db54" className="h-4 w-4 text-green-500" />
             ) : (
               <XCircle className="h-4 w-4 text-gray-500" />
             )}
