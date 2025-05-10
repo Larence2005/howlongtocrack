@@ -26,7 +26,7 @@ const SecurityTips: React.FC<SecurityTipsProps> = ({ className }) => {
         {tips.map((tip, index) => (
           <div key={index} className="security-tip">
             <div className="flex gap-2">
-              <Info className="h-4 w-4 text-accent shrink-0 mt-0.5" />
+              <Info color="green" className="h-4 w-4 text-accent shrink-0 mt-0.5" />
               <p className="text-xs text-foreground/90">{tip}</p>
             </div>
           </div>
