@@ -96,11 +96,11 @@ export default {
 					}
 				},
 				'pulse-glow': {
-					'0%, 100%': { opacity: '1' },
+					'0%, 50%': { opacity: '1' },
 					'50%': { opacity: '0.7' }
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 15px rgba(147, 51, 234, 0.4)' },
+					'0%, 50%': { boxShadow: '0 0 15px rgba(147, 51, 234, 0.4)' },
 					'50%': { boxShadow: '0 0 25px rgba(147, 51, 234, 0.7)' }
 				}
 			},
