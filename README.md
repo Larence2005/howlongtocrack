@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/41ce2d84-2552-4c26-83fc-41a3f79822ba) and start prompting.
+Simply visit the [Lovable Project](https://howlongtocrack.lovable.app/) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
