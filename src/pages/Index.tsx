@@ -10,7 +10,7 @@ const Index = () => {
           How Long To Crack
         </h1>
         <p className="text-center text-muted-foreground mb-8 max-w-md mx-auto px-4">
-          Type your password below to see how secure it is
+          Type your password below to see how secure it is against brute force
         </p>
         <PasswordStrengthChecker />
       </div>
