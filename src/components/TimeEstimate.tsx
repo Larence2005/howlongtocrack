@@ -19,7 +19,7 @@ const TimeEstimate: React.FC<TimeEstimateProps> = ({ time, className }) => {
       className
     )}>
       <div className={cn("flex items-center gap-2", isMobile ? "w-full" : "")}>
-        <Clock className="w-5 h-5 text-accent shrink-0" />
+        <Clock color="#68db54" className="w-5 h-5 text-accent shrink-0" />
         <span className="text-xs text-foreground/80">Time to crack:</span>
       </div>
       <div className={cn("w-full overflow-hidden", isMobile ? "pl-0" : "pl-8")}>
